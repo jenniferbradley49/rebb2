@@ -1,0 +1,37 @@
+<?php include 'top.html' ?>
+<!-- begin content -->
+      <div id="templatemo_right_column">
+ 		<div class="text_area" align="justify">
+<div class="title">Free CSS Template</div>
+This   2-column free CSS  layout is provided by <a href="http://www.templatemo.com" target="_parent">templatemo.com</a>. You may download, modify and apply this layout for your websites or CMS projects. Photoshop brush credit goes to <a href="http://solenero73.deviantart.com" target="_blank">solenero73</a>. It would be very helpful if you could provide a credit link back to <a href="http://www.templatemo.com" target="_parent">templatemo.com</a> website. Thank you.<br />
+<br />
+Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque dolor nulla, congue vitae, fringilla in, varius a, orci. Mauris convallis. Proin vel libero id erat venenatis accumsan. Nunc blandit orci sit amet risus. Enjoy your life.<br />
+<br />
+		<div class="post_box" align="justify">
+        <div class="post_title"><a href="#">CSS Website Design</a></div>
+        <div class="post_text_area">
+        <a href="#"><img src="images/s_flashmo_022_park_34.jpg" alt="Photo One" width="120" height="90" class="templatemo_pic" title="Photo One" /></a>
+       Vivamus leo velit, convallis id, ultrices sit amet, tempor a, libero. Quisque rhoncus nulla quis sem. Mauris quis nulla sed ipsum pretium sagittis. Suspendisse feugiat. Ut sodales libero ut odio. Maecenas venenatis metus eu est. In sed risus ac felis varius bibendum. <br />
+       <br />
+       Nulla imperdiet congue metus. Vestibulum dapibus tortor vel orci. Maecenas vulputate, arcu id fermentum eleifend, tortor enim tincidunt mauris, fringilla tincidunt purus urna vel risus. Fusce vulputate tellus ac felis.</div>
+        <div class="publish_date">Post Date: 14-12-2020 · Tags: <a href="#">CSS</a> · <a href="#">Web Design</a> · <a href="#">XHTML</a></div>
+      	</div>
+        
+        <div class="post_box" align="justify">
+        <div class="post_title"><a href="#">New Flash Animation</a></div>
+        <div class="post_text_area">
+        <a href="#"><img src="images/s_flashmo_022_park_20.jpg" alt="Photo Two" width="120" height="90" class="templatemo_pic" title="Photo Two" /></a>
+   	    Integer imperdiet  odio ac eros. Ut id massa. Nullam nunc. Vivamus sagittis varius lorem.
+        Quisque in diam a justo condimentum molestie. Vivamus a velit. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.. <br />
+        <br />
+   	   Nam sit amet justo vel libero tincidunt dignissim. Fusce ac orci sit amet velit ultrices condimentum. Integer imperdiet  odio ac eros. Ut id massa. Nullam nunc. Vivamus sagittis varius lorem.
+        Quisque in diam a justo condimentum molestie.<br />
+          </div>
+          <div class="publish_date">Post Date: 20-12-2020 · Tags: <a href="#">Flash</a> · <a href="#">AS3</a> · <a href="#">Interactive</a></div>
+      	</div>
+       
+        </div>
+      </div>
+ <!-- end content -->
+<?php include('bottom.html') ?>
+
