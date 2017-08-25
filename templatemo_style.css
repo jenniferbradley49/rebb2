@@ -79,7 +79,7 @@ a:active, a:hover { color: #FF0000; text-decoration: underline}
 	float: left;
 	margin-right: 10px;
 	margin-bottom: 10px;
-	border: 1px solid #000;
+	border-style: none; /* 0px; solid #000; */
 }
 .section_box {
 	margin: 10px;

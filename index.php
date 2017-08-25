@@ -1,13 +1,48 @@
-<?php echo ('test php'); ?>
 
 <?php require 'top.php'; ?>
-<div class="title">Free CSS Template</div>
-This   2-column free CSS  layout is provided by <a href="http://www.templatemo.com" target="_parent">templatemo.com</a>. You may download, modify and apply this layout for your websites or CMS projects. Photoshop brush credit goes to <a href="http://solenero73.deviantart.com" target="_blank">solenero73</a>. It would be very helpful if you could provide a credit link back to <a href="http://www.templatemo.com" target="_parent">templatemo.com</a> website. Thank you.<br />
-<br />
-Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque dolor nulla, congue vitae, fringilla in, varius a, orci. Mauris convallis. Proin vel libero id erat venenatis accumsan. Nunc blandit orci sit amet risus. Enjoy your life.<br />
-<br />
-		<div class="post_box" align="justify">
-        <div class="post_title"><a href="#">CSS Website Design</a></div>
+<div class="title">Welcome to Red Butterfly Books!</div>
+
+  
+ 		<div class="post_box" align="justify">
+        <div class="post_title"><a href="#">Which is your dream?</a></div>
+        <div class="post_text_area">
+        <a href="#"><img src="images/red_butterfly_3_90x90.jpg" alt="Red Butterfly" width="90" height="90" class="templatemo_pic" title="Red Butterfly" id="img_rb1" /></a>
+		Do you dream about holding your book, and seeing your name as the author?  Possibly you just love to write?  Do you have a burning desire to share a message with the world?  Do you dream about people waiting for you to sign copies of your book at your book signing?  Do you dream about the accolades of a positive review of your book in the newspaper?  Do you dream about a televised interview regarding your book?  Perhaps you might even dream about seeing your book on a best-seller list?
+        <br />       
+          </div>
+          <div class="publish_date">&nbsp;</div>
+      	</div>
+
+  
+ 		<div class="post_box" align="justify">
+        <div class="post_title"><a href="#">What we can offer to you</a></div>
+        <div class="post_text_area">
+        <a href="#"><img src="images/red_butterfly_4_90x90.jpg" alt="Red Butterfly" width="90" height="90" class="templatemo_pic" title="Red Butterfly" id="img_rb2" /></a>
+		Red Butterfly Books offers a wide range of publishing services, including complete, end-to-end publishing of your manuscript, writing coaching, and distribution and promotion of your book.  
+ <br /><br />
+If you would like to <a href="send_manuscript.php">send us your manuscript</a>, we can take a look, and offer some feedback.  You can <a href="contact.php">contact us</a> for more information about this or any of the services we offer.
+		
+        <br />       
+          </div>
+          <div class="publish_date">&nbsp;</div>
+      	</div>
+
+  
+ 		<div class="post_box" align="justify">
+        <div class="post_title"><a href="#">Do you believe in your book?</a></div>
+        <div class="post_text_area">
+        <a href="#"><img src="images/red_butterfly_5_90x90.jpg" alt="Red Butterfly" width="90" height="90" class="templatemo_pic" title="Red Butterfly" id="img_rb3" /></a>
+		 We can make your book a reality!  Call us, at&nbsp;<span style="color:red">(949) 415-6785</span>&nbsp;!
+        <br />       
+          </div>
+          <div class="publish_date">&nbsp;</div>
+      	</div>
+
+      	
+
+<!--  
+<div class="post_box" align="justify">
+        <div class="post_title"><a href="#"></a></div>
         <div class="post_text_area">
         <a href="#"><img src="images/s_flashmo_022_park_34.jpg" alt="Photo One" width="120" height="90" class="templatemo_pic" title="Photo One" /></a>
        Vivamus leo velit, convallis id, ultrices sit amet, tempor a, libero. Quisque rhoncus nulla quis sem. Mauris quis nulla sed ipsum pretium sagittis. Suspendisse feugiat. Ut sodales libero ut odio. Maecenas venenatis metus eu est. In sed risus ac felis varius bibendum. <br />
@@ -28,13 +63,10 @@ Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Pellentesque dolor nul
         Quisque in diam a justo condimentum molestie.<br />
 
         
-        <div id="sketch" style="position: relative;" ><!-- start sketch div -->
-               <img src="images/red_butterfly_30x31.jpg" id="follower" style="position: absolute;" />
-		</div><!-- end sketch div-->
           </div>
           <div class="publish_date">Post Date: 20-12-2020 · Tags: <a href="#">Flash</a> · <a href="#">AS3</a> · <a href="#">Interactive</a></div>
       	</div>
-       
+ -->      
  <!-- end content -->
 <?php include('bottom.php') ?>
 

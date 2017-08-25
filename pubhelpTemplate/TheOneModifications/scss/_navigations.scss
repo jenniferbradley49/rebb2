@@ -1,0 +1,725 @@
+/* Navigations */
+
+/* Default Menus */
+
+.nav>li>a {
+    font-family: $secondary-font;
+    padding-left: 20px;
+    padding-right: 0;
+}
+
+.nav li label a {
+    font-family: $primary-font;
+}
+
+.navbar {
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+.navbar-fixed-top {
+    border-radius: 0;
+}
+
+.navbar-fixed-top .container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.top-nav-collapse {
+    -webkit-transition: ease-in 0.3s;
+    -moz-transition: ease-in 0.3s;
+    -o-transition: ease-in 0.3s;
+    transition: ease-in 0.3s;
+}
+
+.navbar-brand {
+    color: $grey !important;
+    font-size: 20px;
+    line-height: 20px;
+    font-weight: $bold;
+    height: 60px;
+    padding: 20px 15px;
+}
+
+.navbar-brand span {
+    color: $primary;
+}
+
+.navbar-brand>img {
+    width: auto;
+    max-height: 20px;
+}
+
+.navbar-toggle {
+    margin: 8px;
+}
+
+.navbar-toggle .icon-bar {
+    background: $primary;
+    width: 20px;
+    height: 3px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+
+.dropdown-menu {
+    z-index: 9999;
+    border-radius: 0;
+}
+
+/* Default Navbar */
+
+.navbar-default .navbar-nav>li>a {
+    color: $text-color;
+    font-size: 15px;
+    font-weight: $bold;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: $primary;
+}
+
+.navbar-default .navbar-nav > li > a:focus {
+    color: $text-color !important;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: $primary;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+    color: $primary;
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: $primary;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.navbar-default .dropdown-menu > li > a {
+    font-size: 14px;
+    text-align: center;
+}
+
+.navbar-default .dropdown-menu > li > a:hover {
+    color: $white;
+    background-color: $primary;
+}
+
+/* End Default Navbar */
+
+/* Default Navbar Inverse */
+
+.navbar-inverse .navbar-nav>li>a {
+    color: $grey;
+    font-size: 15px;
+    font-weight: $bold;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover {
+    color: $primary;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus {
+    color: $grey !important;
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse .navbar-nav>.active>a:hover {
+    color: $primary;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>.open>a, .navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse .navbar-nav>.open>a:hover {
+    color: $primary;
+    background-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: $primary;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle:hover, .navbar-inverse .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.navbar-inverse .dropdown-menu {
+    background-color: $default-hover;
+}
+
+.navbar-inverse .dropdown-menu .divider {
+    background-color: $default;
+}
+
+.navbar-inverse .dropdown-menu > li > a {
+    color: $grey;
+    font-size: 14px;
+    text-align: center;
+}
+
+.navbar-inverse .dropdown-menu > li > a:hover {
+    color: $white;
+    background-color: $primary;
+}
+
+/* / End Default Navbar Inverse */
+
+/* Split Menu */
+
+.split-menu {
+    text-align: center;
+}
+
+.split-menu .navbar-brand {
+    float: none;
+    display: inline-block;
+}
+
+/* / End Split Menu */
+
+
+/* Stacked Menu */
+
+.stacked-menu {
+    text-align: center;
+}
+
+.stacked-menu .navbar-brand {
+    float: none;
+    display: inline-block;
+}
+
+.stacked-menu .navbar-nav {
+    float: none;
+    display: inline-block;
+}
+
+.stacked-menu .navbar-nav > li > a {
+    padding-top: 0;
+}
+
+/* / End Stacked Menu */
+/* / End Default Menus */
+
+/* Navbar-1 */
+
+.navbar-1 {
+    border-radius: 0;
+}
+
+.navbar-1.navbar-default {
+    background-color: $bg-color;
+    border-color:  transparent;
+}
+
+.navbar-inverse {
+    background-color: $default-hover;
+    border-color: transparent;
+}
+
+/* Transparent Navigations */
+
+.navbar-default-transparent {
+    background-color: transparent !important;
+}
+
+.navbar-default-transparent.top-nav-collapse {
+    background-color: $default-hover !important;
+}
+
+.navbar-default-transparent.navbar-fixed-top .navbar-collapse.in {
+    background: $default-hover;
+}
+
+.navbar-inverse-transparent {
+    background-color: transparent !important;
+}
+
+.navbar-inverse-transparent.top-nav-collapse {
+    background-color: $white-transparent !important;
+}
+
+.navbar-inverse-transparent.navbar-fixed-top .navbar-collapse.in {
+    background: $bg-color;
+}
+
+.navbar-default-transparent.navbar-default .navbar-nav > li > a {
+    color: $white;
+}
+
+.navbar-default-transparent.navbar-default .navbar-nav>li>a:hover {
+    color: $primary;
+}
+
+.navbar-default-transparent.navbar-default .navbar-nav > li > a:focus {
+    color: $white !important;
+}
+
+.navbar-default-transparent.navbar-default .navbar-nav>.active>a, .navbar-default-transparent.navbar-default .navbar-nav>.active>a:focus, .navbar-default-transparent.navbar-default .navbar-nav>.active>a:hover {
+    color: $primary;
+    background-color: transparent;
+}
+
+.navbar-default-transparent.navbar-default .navbar-nav>.open>a, .navbar-default-transparent.navbar-default .navbar-nav>.open>a:focus, .navbar-default-transparent.navbar-default .navbar-nav>.open>a:hover {
+    color: $primary;
+    background-color: transparent;
+}
+
+.navbar-default-transparent.navbar-default .navbar-toggle .icon-bar {
+    background-color: $primary;
+}
+
+.navbar-default-transparent.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default-transparent.navbar-default .navbar-toggle:hover, .navbar-default-transparent.navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+.navbar-inverse-transparent.navbar-inverse .navbar-nav > li > a {
+    color: $black;
+}
+
+.navbar-inverse-transparent.navbar-inverse .navbar-nav>li>a:hover {
+    color: $primary;
+}
+
+.navbar-inverse-transparent.navbar-inverse .navbar-nav > li > a:focus {
+    color: $black !important;
+}
+
+.navbar-inverse-transparent.navbar-inverse .navbar-nav>.active>a, .navbar-inverse-transparent.navbar-inverse .navbar-nav>.active>a:focus, .navbar-inverse-transparent.navbar-inverse .navbar-nav>.active>a:hover {
+    color: $primary;
+    background-color: transparent;
+}
+
+.navbar-inverse-transparent.navbar-inverse .navbar-nav>.open>a, .navbar-inverse-transparent.navbar-inverse .navbar-nav>.open>a:focus, .navbar-inverse-transparent.navbar-inverse .navbar-nav>.open>a:hover {
+    color: $primary;
+    background-color: transparent;
+}
+
+.navbar-inverse-transparent.navbar-inverse .navbar-toggle .icon-bar {
+    background-color: $primary;
+}
+
+.navbar-inverse-transparent .navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-inverse-transparent.navbar-inverse .navbar-toggle:hover, .navbar-inverse-transparent.navbar-inverse .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+/* End Transparent Navigations */
+
+/* Navigations with Buttons */
+
+.btn-default-nav {
+    background: transparent;
+    font-size: 12px !important;
+    font-weight: $bold;
+    border: 2px solid $text-color;
+    margin: 13px 0 0 15px;
+    padding: 7px 0;
+}
+
+.btn-default-nav a {
+    color: $text-color;
+    padding: 5px 10px !important;
+}
+
+.btn-default-nav a:hover {
+    color: $primary !Important;
+}
+
+.btn-default-nav:hover {
+    border: 2px solid $primary;
+}
+
+.btn-inverse-nav {
+    background: transparent;
+    font-size: 12px !important;
+    font-weight: $bold;
+    border: 2px solid $grey;
+    margin: 13px 0 0 15px;
+    padding: 7px 0;
+}
+
+.btn-inverse-nav a {
+    color: $grey;
+    padding: 5px 10px !important;
+}
+
+.btn-inverse-nav a:hover {
+    color: $primary !Important;
+}
+
+.btn-inverse-nav:hover {
+    border: 2px solid $primary;
+}
+
+.navbar-default-transparent .btn-default-nav a {
+    color: $white;
+}
+
+.navbar-default-transparent .btn-default-nav {
+    border: 2px solid $white;
+}
+
+.navbar-default-transparent .btn-default-nav:hover {
+    border: 2px solid $primary;
+}
+
+.navbar-inverse-transparent .btn-inverse-nav a {
+    color: $black;
+}
+
+.navbar-inverse-transparent .btn-inverse-nav {
+    border: 2px solid $black;
+}
+
+.navbar-inverse-transparent .btn-inverse-nav:hover {
+    border: 2px solid $primary;
+}
+
+/* Navbar Button Colors */
+
+.btn-default-filled-nav {
+    background: $default;
+    font-size: 12px !important;
+    font-weight: $bold;
+    border: 2px solid $default;
+    margin: 13px 0 0 15px;
+    padding: 7px 0;
+}
+
+.btn-default-filled-nav a {
+    color: $white;
+    padding: 5px 10px !important;
+}
+
+.btn-default-filled-nav a:hover {
+    color: $white;
+}
+
+.btn-default-filled-nav:hover {
+    background: $default-hover;
+    border: 2px solid $default-hover;
+}
+
+
+.btn-primary-filled-nav {
+    background: $primary;
+    font-size: 12px !important;
+    font-weight: $bold;
+    border: 2px solid $primary;
+    margin: 13px 0 0 15px;
+    padding: 7px 0;
+}
+
+.btn-primary-filled-nav a {
+    color: $white;
+    padding: 5px 10px !important;
+}
+
+.btn-primary-filled-nav a:hover {
+    color: $white;
+}
+
+.btn-primary-filled-nav:hover {
+    background: $primary-hover;
+    border: 2px solid $primary-hover;
+}
+
+
+.btn-success-filled-nav {
+    background: $success;
+    font-size: 12px !important;
+    font-weight: $bold;
+    border: 2px solid $success;
+    margin: 13px 0 0 15px;
+    padding: 7px 0;
+}
+
+.btn-success-filled-nav a {
+    color: $white;
+    padding: 5px 10px !important;
+}
+
+.btn-success-filled-nav a:hover {
+    color: $white;
+}
+
+.btn-success-filled-nav:hover {
+    background: $success-hover;
+    border: 2px solid $success-hover;
+}
+
+
+.btn-info-filled-nav {
+    background: $info;
+    font-size: 12px !important;
+    font-weight: $bold;
+    border: 2px solid $info;
+    margin: 13px 0 0 15px;
+    padding: 7px 0;
+}
+
+.btn-info-filled-nav a {
+    color: $white;
+    padding: 5px 10px !important;
+}
+
+.btn-info-filled-nav a:hover {
+    color: $white;
+}
+
+.btn-info-filled-nav:hover {
+    background: $info-hover;
+    border: 2px solid $info-hover;
+}
+
+
+.btn-warning-filled-nav {
+    background: $warning;
+    font-size: 12px !important;
+    font-weight: $bold;
+    border: 2px solid $warning;
+    margin: 13px 0 0 15px;
+    padding: 7px 0;
+}
+
+.btn-warning-filled-nav a {
+    color: $white;
+    padding: 5px 10px !important;
+}
+
+.btn-warning-filled-nav a:hover {
+    color: $white;
+}
+
+.btn-warning-filled-nav:hover {
+    background: $warning-hover;
+    border: 2px solid $warning-hover;
+}
+
+
+.btn-danger-filled-nav {
+    background: $danger;
+    font-size: 12px !important;
+    font-weight: $bold;
+    border: 2px solid $danger;
+    margin: 13px 0 0 15px;
+    padding: 7px 0;
+}
+
+.btn-danger-filled-nav a {
+    color: $white;
+    padding: 5px 10px !important;
+}
+
+.btn-danger-filled-nav a:hover {
+    color: $white;
+}
+
+.btn-danger-filled-nav:hover {
+    background: $danger-hover;
+    border: 2px solid $danger-hover;
+}
+
+/* End Navbar Button Colors */
+
+/* End Navigations with Buttons */
+/* End Navbar-1 */
+
+/* Top Menus */
+
+.top-menu {
+    background-color: $bg-color;
+}
+
+.top-menu-inverse {
+    background-color: $default-hover;
+}
+
+.top-menu-primary {
+    background-color: $primary;
+}
+
+.top-menu-success {
+    background-color: $success;
+}
+
+.top-menu-info {
+    background-color: $info;
+}
+
+.top-menu-warning {
+    background-color: $warning;
+}
+
+.top-menu-danger {
+    background-color: $danger;
+}
+
+.top-menu p {
+    margin-bottom: 0;
+    padding: 9px 15px;
+}
+
+.top-menu-bg p {
+    padding: 9px 0;
+}
+
+.top-menu-bg-inverse p {
+    padding: 9px 0;
+}
+
+.top-menu a {
+    color: $text-color !important;
+    font-size: 12px !important;
+    margin-right: 10px;
+}
+
+.top-menu-inverse a {
+    color: $white !important;
+}
+
+.top-menu a:hover {
+    color: $primary !important;
+}
+
+.top-menu-primary a:hover {
+    color: $default-hover !important;
+}
+
+.top-menu-success a:hover {
+    color: $default-hover !important;
+}
+
+.top-menu-info a:hover {
+    color: $default-hover !important;
+}
+
+.top-menu-warning a:hover {
+    color: $default-hover !important;
+}
+
+.top-menu-danger a:hover {
+    color: $default-hover !important;
+}
+
+.top-menu .left i {
+    margin-right: 5px;
+}
+
+.top-menu .right {
+    float: right;
+}
+
+.top-menu .right a {
+    margin: 0 0 0 15px;
+}
+
+.top-menu-bg {
+    background: url("../images/nav-bg-default.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-menu-bg-inverse {
+    background: url("../images/nav-bg-inverse.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.top-menu .container {
+    padding: 0 15px;
+}
+
+.top-menu-bg a {
+    color: $white !important;
+}
+
+.top-menu-bg-inverse a {
+    color: $black !important;
+}
+
+.btn-top-menu {
+    background: transparent;
+    font-size: 10px !important;
+    font-weight: 700;
+    border: 2px solid $text-color;
+    margin: -3px 0 0 10px;
+    padding: 5px 0;
+}
+
+.btn-top-menu:hover {
+    border: 2px solid $primary;
+}
+
+.btn-top-menu a {
+    font-size: 10px !important;
+    margin: 0 !important;
+    padding: 8px;
+}
+
+.btn-top-menu-inverse {
+    background: transparent;
+    font-size: 10px !important;
+    font-weight: 700;
+    border: 2px solid $grey;
+    margin: -3px 0 0 10px;
+    padding: 5px 0;
+}
+
+.btn-top-menu-inverse:hover {
+    border: 2px solid $primary;
+}
+
+.btn-top-menu-inverse a {
+    font-size: 10px !important;
+    margin: 0 !important;
+    padding: 8px;
+}
+
+.top-menu-bg .btn-top-menu {
+    border: 2px solid $white;
+}
+
+.top-menu-bg .btn-top-menu:hover {
+    border: 2px solid $primary;
+}
+
+.top-menu-bg-inverse .btn-top-menu-inverse {
+    border: 2px solid $black;
+}
+
+.top-menu-bg-inverse .btn-top-menu-inverse:hover {
+    border: 2px solid $primary;
+}
+
+/* End Top Menus */
+
+/* End Navigations */
